@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <title>Pineapple - Admin Dashboard</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="fa fa-apple"></i></span
+              ><span class="title">Pineapple</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="fa fa-home"></i></span
+              ><span class="title">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="fa fa-users"></i></span
+              ><span class="title">Customers</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="fa fa-comment"></i></span
+              ><span class="title">Message</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="fa fa-question-circle"></i></span
+              ><span class="title">Help</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><i class="fa fa-cog"></i></span
+              ><span class="title">Settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              ><span class="icon"><i class="fa fa-lock"></i></span
+              ><span class="title">Password</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><span class="icon"><i class="fa fa-sign-out"></i></span
+              ><span class="title">Log out</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="main">
+        <div class="topbar">
+          <div class="toggle" onclick="toggleMenu()"></div>
+          <div class="search">
+            <label for="">
+              <input type="text" placeholder="Search Here" />
+              <i class="fa fa-search"></i>
+            </label>
+          </div>
+          <div class="user">
+            <img src="img/user.jpg" alt="" />
+          </div>
+        </div>
+        <div class="cardBox">
+          <div class="card">
+            <div>
+              <div class="numbers">1,042</div>
+              <div class="cardName">Daily Views</div>
+            </div>
+            <div class="icon-box">
+              <i class="fa fa-eye"></i>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <div class="numbers">82</div>
+              <div class="cardName">Sales</div>
+            </div>
+            <div class="icon-box">
+              <i class="fa fa-shopping-cart"></i>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <div class="numbers">2002</div>
+              <div class="cardName">Comments</div>
+            </div>
+            <div class="icon-box">
+              <i class="fa fa-comment"></i>
+            </div>
+          </div>
+          <div class="card">
+            <div>
+              <div class="numbers">$6,012</div>
+              <div class="cardName">Earnings</div>
+            </div>
+            <div class="icon-box">
+              <i class="fa fa-usd"></i>
+            </div>
+          </div>
+        </div>
+        <div class="details">
+          <div class="recentOrders">
+            <div class="cardHeader">
+              <h2>Recent Orders</h2>
+              <a href="#" class="btn">View All</a>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Price</th>
+                  <th>Payment</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Star Refrigerator</td>
+                  <td>$1,200</td>
+                  <td>Paid</td>
+                  <td><span class="status delivered">Delivered</span></td>
+                </tr>
+                <tr>
+                  <td>Window Coolers</td>
+                  <td>$110</td>
+                  <td>Due</td>
+                  <td><span class="status pending">Pending</span></td>
+                </tr>
+                <tr>
+                  <td>Speakers</td>
+                  <td>$620</td>
+                  <td>Paid</td>
+                  <td><span class="status return">Return</span></td>
+                </tr>
+                <tr>
+                  <td>Hp Laptop</td>
+                  <td>$6,000</td>
+                  <td>Due</td>
+                  <td><span class="status inprogress">In Progress</span></td>
+                </tr>
+                <tr>
+                  <td>Star Refrigerator</td>
+                  <td>$1,200</td>
+                  <td>Paid</td>
+                  <td><span class="status delivered">Delivered</span></td>
+                </tr>
+                <tr>
+                  <td>Star Refrigerator</td>
+                  <td>$1,200</td>
+                  <td>Paid</td>
+                  <td><span class="status delivered">Delivered</span></td>
+                </tr>
+                <tr>
+                  <td>Window Coolers</td>
+                  <td>$110</td>
+                  <td>Due</td>
+                  <td><span class="status delivered">Pending</span></td>
+                </tr>
+                <tr>
+                  <td>Speakers</td>
+                  <td>$620</td>
+                  <td>Paid</td>
+                  <td><span class="status return">Return</span></td>
+                </tr>
+                <tr>
+                  <td>Hp Laptop</td>
+                  <td>$6,000</td>
+                  <td>Due</td>
+                  <td><span class="status inprogress">In Progress</span></td>
+                </tr>
+                <tr>
+                  <td>Star Refrigerator</td>
+                  <td>$1,200</td>
+                  <td>Paid</td>
+                  <td><span class="status delivered">Delivered</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="recentCustomers">
+            <div class="cardHeader">
+              <h2>Recent Customers</h2>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                  <td width="60px">
+                    <div class="imgBox">
+                      <img src="img/07.jpg" alt="" />
+                    </div>
+                  </td>
+                  <td>
+                    <h4>Rahim <br /><span>Italy</span></h4>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="60px">
+                    <div class="imgBox">
+                      <img src="img/01.jpg" alt="" />
+                    </div>
+                  </td>
+                  <td>
+                    <h4>Karim <br /><span>Italy</span></h4>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="60px">
+                    <div class="imgBox">
+                      <img src="img/09.jpg" alt="" />
+                    </div>
+                  </td>
+                  <td>
+                    <h4>Fatir <br /><span>Italy</span></h4>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="60px">
+                    <div class="imgBox">
+                      <img src="img/10.jpg" alt="" />
+                    </div>
+                  </td>
+                  <td>
+                    <h4>Yanus <br /><span>Italy</span></h4>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="60px">
+                    <div class="imgBox">
+                      <img src="img/13.jpg" alt="" />
+                    </div>
+                  </td>
+                  <td>
+                    <h4>A. Hamid <br /><span>Italy</span></h4>
+                  </td>
+                </tr>
+                <tr>
+                  <td width="60px">
+                    <div class="imgBox">
+                      <img src="img/22.jpg" alt="" />
+                    </div>
+                  </td>
+                  <td>
+                    <h4>Rayeb <br /><span>Italy</span></h4>
+                  </td>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- End of main  -->
+    </div>
+    <!-- End of container -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
